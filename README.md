@@ -1,2 +1,61 @@
-# ModNamer5000
-Batch script to rename folders in the current directory with a specific prefix or remove that prefix
+# Mod Namer 5000
+
+**Mod Namer 5000** is a Windows batch script that allows you to add or remove a custom prefix to the names of top-level folders in a directory. This is particularly useful for organizing or marking folders with a specific tag, such as `[NoDelete]`.
+
+## Features
+
+- **Add Prefix**: Automatically prepend a specified prefix to folder names that do not already have it.
+- **Remove Prefix**: Remove the specified prefix from folder names that contain it.
+- **Interactive**: Prompts the user to choose whether to add or remove the prefix.
+- **Customizable**: Easily change the prefix by modifying a variable in the script.
+
+## Usage
+
+### Prerequisites
+
+- Windows operating system
+- Basic understanding of running batch scripts
+
+### Instructions
+
+1. **Download the Script**
+
+   - Download the `ModNamer5000.bat` file from the repository.
+
+2. **Place the Script**
+
+   - Move the script into the directory containing the folders you want to modify.
+
+3. **Run the Script**
+
+   - Double-click the `ModNamer5000.bat` file to execute it.
+   - The script will display the ASCII art and prompt:
+
+     ```
+     Do you want to (A)dd the prefix or (R)emove the prefix from the folders?
+     Enter A to add or R to remove:
+     ```
+
+4. **Choose an Option**
+
+   - Type `A` to add the prefix to folders that do not already have it.
+   - Type `R` to remove the prefix from folders that contain it.
+   - Press **Enter** to proceed.
+
+5. **View Results**
+
+   - The script will display messages indicating which folders have been renamed or skipped.
+   - After processing, it will pause to allow you to review the actions taken.
+
+### Customization
+
+- **Change the Prefix**
+
+  - Open the script in a text editor.
+  - Locate the line:
+
+    ```batch
+    set "prefix=[NoDelete] "
+    ```
+
+  - Modify the value of `prefix` to your desired prefix.
