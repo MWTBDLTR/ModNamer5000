@@ -29,7 +29,7 @@
 3. **Run the Script**
 
    - Double-click the `ModNamer5000.bat` file to execute it.
-   - The script will display the ASCII art and prompt:
+   - The script will prompt:
 
      ```
      Do you want to (A)dd the prefix or (R)emove the prefix from the folders?
@@ -46,16 +46,3 @@
 
    - The script will display messages indicating which folders have been renamed or skipped.
    - After processing, it will pause to allow you to review the actions taken.
-
-### Customization
-
-- **Change the Prefix**
-
-  - Open the script in a text editor.
-  - Locate the line:
-
-    ```batch
-    set "prefix=[NoDelete] "
-    ```
-
-  - Modify the value of `prefix` to your desired prefix.
