@@ -21,7 +21,7 @@
 
 1. **Download the Script**
 
-   - Download the latest release.
+   - Download the latest [release](https://github.com/MWTBDLTR/ModNamer5000/releases "yeah, the good stuff").
 
 2. **Place the Script**
 
