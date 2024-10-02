@@ -11,6 +11,9 @@
 
 ## Usage
 
+### WARNING
+- Reportedly, if you don't use it correctly it may fling shit everywhere. I don't even know how it would do that. Proceed with caution I guess.
+
 ### Prerequisites
 
 - Windows operating system
