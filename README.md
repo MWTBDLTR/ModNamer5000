@@ -21,7 +21,7 @@
 
 1. **Download the Script**
 
-   - Download the `ModNamer5000.bat` file from the repository.
+   - Download the latest release.
 
 2. **Place the Script**
 
@@ -47,3 +47,4 @@
 
    - The script will display messages indicating which folders have been renamed or skipped.
    - After processing, it will pause to allow you to review the actions taken.
+   - If this is confusing, give up now.
