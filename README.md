@@ -1,13 +1,13 @@
 # Mod Namer 5000
 
-**Mod Namer 5000** is a Windows batch script that allows you to add or remove "[NoDelete] " to the names of top-level folders in a directory. This is particularly useful for preventing the deletion of mods you wish to retain when updating a Wabbajack install or MO2 install.
+**Mod Namer 5000** is a Windows batch script that allows you to add or remove "[NoDelete]" to the names of top-level folders in a directory. This is particularly useful for preventing the deletion of mods you wish to retain when updating a Wabbajack install or MO2 install.
 
 ## Features
 
-- **Add Prefix**: Automatically prepend a specified prefix to folder names that do not already have it.
-- **Remove Prefix**: Remove the specified prefix from folder names that contain it.
+- **Add Prefix**: Automatically prepend [NoDelete] to folder names that do not already have it.
+- **Remove Prefix**: Remove [NoDelete] from folder names that contain it.
 - **Interactive**: Prompts the user to choose whether to add or remove the prefix.
-- **Customizable**: Easily change the prefix by modifying a variable in the script.
+- **Customizable**: Easily change the prefix by modifying the prefix variable in the script.
 
 ## Usage
 
