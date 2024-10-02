@@ -14,7 +14,8 @@
 ### Prerequisites
 
 - Windows operating system
-- Basic understanding of running batch scripts
+- Basic understanding of human motor function
+- Two brain cells
 
 ### Instructions
 
